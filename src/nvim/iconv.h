@@ -35,7 +35,7 @@ typedef void *iconv_t;
 // define some missing constants if necessary
 # ifdef USE_ICONV
 #  ifndef EILSEQ
-#   define EILSEQ 123
+//#   define EILSEQ 123
 #  endif
 #  ifdef DYNAMIC_ICONV
 // on win32 iconv.dll is dynamically loaded
